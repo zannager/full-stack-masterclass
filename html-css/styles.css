@@ -1,0 +1,34 @@
+/* body{
+    background-color: rgba(128, 162, 154, 0.3);  */
+
+    /* hex values 
+    background-color: #5f895f;
+    */
+
+/* }
+
+h1{
+    color: orange;
+}
+
+h2{
+    color: purple;
+}
+
+#p1{
+    color: red;
+}
+
+#p2{
+    color: blue;
+}
+
+.center{
+    color: aqua;
+} */
+
+h1{
+    background-color: purple;
+    padding-left: 20px;
+    margin-top: 40px;
+}
