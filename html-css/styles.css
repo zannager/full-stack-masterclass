@@ -1,9 +1,36 @@
-body{
-
+a:link{
+    color: green;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: brown;
 }
 
-h1{
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-style: italic;
-    font-size: 2.2em;
+a:visited{
+    color: blue;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    ackground-color: brown;
 }
+
+a:hover{
+    color: red;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    ackground-color: brown;
+}
+
+a:active{
+    color: yellow;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    ackground-color: brown;
+}
+
