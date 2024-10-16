@@ -1,23 +1,25 @@
 .container{
     display: flex;
     background-color: yellow;
-    flex-direction: column;
 }
 
 .a{
-    min-width: 150px;
+    width: 350px;
     height: 150px;
     background-color: blue;
+    flex-shrink: 1;
 }
 
 .b{
-    min-width: 150px;
+    width: 350px;
     height: 150px;
     background-color: red;
+    flex-shrink: 1;
 }
 
 .c{
-    min-width: 150px;
+    width: 350px;
     height: 150px;
     background-color: green;
+    flex-shrink: 1;
 }
