@@ -1,19 +1,23 @@
-.top-banner{
-    color: purple;
+.container{
+    display: flex;
+    background-color: yellow;
+    flex-direction: column;
 }
 
-.line1{
-    color: red;
+.a{
+    min-width: 150px;
+    height: 150px;
+    background-color: blue;
 }
 
-.line2{
-    color: blue;
+.b{
+    min-width: 150px;
+    height: 150px;
+    background-color: red;
 }
 
-.line3{
-    color: aquamarine;
-}
-
-.line4{
-    color: green;
+.c{
+    min-width: 150px;
+    height: 150px;
+    background-color: green;
 }
