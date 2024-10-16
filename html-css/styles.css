@@ -1,36 +1,19 @@
-a:link{
-    color: green;
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    display: inline-block;
-    background-color: brown;
+.top-banner{
+    color: purple;
 }
 
-a:visited{
-    color: blue;
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    display: inline-block;
-    ackground-color: brown;
-}
-
-a:hover{
+.line1{
     color: red;
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    display: inline-block;
-    ackground-color: brown;
 }
 
-a:active{
-    color: yellow;
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    display: inline-block;
-    ackground-color: brown;
+.line2{
+    color: blue;
 }
 
+.line3{
+    color: aquamarine;
+}
+
+.line4{
+    color: green;
+}
