@@ -20,3 +20,28 @@ body{
     text-align: center;
     padding-top: 40px;
 }
+
+.image-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+#banner-image{
+    width: 100%;
+    opacity: 0.8;
+}
+
+.banner-title{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: 5em;
+}
+
+.banner-subtitle{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    font-size: 2em;
+}
