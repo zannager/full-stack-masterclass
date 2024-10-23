@@ -8,19 +8,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
-        <button class="btn btn-lg btn-primary">Click here</button>
-        <br><br>
-        <button type="button" class="btn btn-secondary w-100">Secondary</button>
-        <br><br>
-        <button type="button" class="btn btn-success">Success</button>
-        <button type="button" class="btn btn-danger">Danger</button>
-        <button type="button" class="btn disabled btn-warning">Warning</button>
-        <button type="button" class="btn btn-info">Info</button>
-        <button type="button" class="btn btn-light">Light</button>
-        <button type="button" class="btn btn-dark">Dark</button>
 
+    <!-- this is a legacy
+    <div class="container"> 
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown Button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownButton">
+            <a href="#" class="dropdown-item">Menu item 1</a>
+            <a href="#" class="dropdown-item">Menu item 2</a>
+            <a href="#" class="dropdown-item">Menu item 3</a>
+        </div>
+    </div> -->
+
+    <div class="container mt-5">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown Button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownButton">
+                <li><a class="dropdown-item" href="#">Menu item 1</a></li>
+                <li><a class="dropdown-item" href="#">Menu item 2</a></li>
+                <li><a class="dropdown-item" href="#">Menu item 3</a></li>
+            </ul>
+        </div>
     </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    
 </body>
 </html>
+
