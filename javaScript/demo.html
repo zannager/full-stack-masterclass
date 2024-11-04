@@ -5,16 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        // global and local variables
+        // coding challenge part 3
 
-        let number = 200;
-        function demo() {
-            let number = 100;
-            document.write(number); //display the number inside this function
+        //task1
+        function display() {
+            document.write("hello world<br>")
         }
+        display();
 
-        demo();
-        // document.write(number); this display the number outside the function
+        //task2
+        function square(x) {
+            result = x * x;
+            document.write(result + "<br>");
+        }
+        square(7);
+
+        //task3
+        function add(a,b,c) {
+            return a + b + c;
+        }
+        result = add(10, 20, 30);
+        document.write(result);
 
     </script>
 </head>
