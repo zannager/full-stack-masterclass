@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        // objects in JavaScript
+        // global and local variables
 
-        let person = { name:'John', age:30, job:"Doctor", car:"BMW"};
+        let number = 200;
+        function demo() {
+            let number = 100;
+            document.write(number); //display the number inside this function
+        }
 
-        document.write(person.name);
+        demo();
+        // document.write(number); this display the number outside the function
 
     </script>
 </head>
