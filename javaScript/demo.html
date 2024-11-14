@@ -5,21 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        //math functions
+        //arrays
 
+        let names = ["John", "Sam", "Rob"];
+        let l = names.length;
+        let a = names.push("Chris")
+        document.write(names[0], "<br>");
+        document.write(l, "<br>");
+        document.write(names[3], "<br>");
         
-        document.write(Math.round(4.5) + "<br>");
-
-        document.write(Math.pow(10,3) + "<br>");
-
-        document.write(Math.sqrt(49) + "<br>");
-
-        document.write(Math.abs(-584) + "<br>");
-
-        document.write(Math.ceil(3.7) + "<br>");
-
-        document.write(Math.floor(3.7) + "<br>");
-
+        for (let i = 0; i < names.length; i++) {
+            document.write(names[i] + "<br>");
+        }
+       
     </script>
 </head>
 <body>
