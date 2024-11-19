@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        //arrays
-
+        //arrays methods
         let names = ["John", "Sam", "Rob"];
-        let l = names.length;
-        let a = names.push("Chris")
-        document.write(names[0], "<br>");
-        document.write(l, "<br>");
-        document.write(names[3], "<br>");
+        // let x = names.toString();
+        // let x = names.pop();
+        // let y = names.pop();
+        // let y = names.shift();
+        names.unshift("Tim");
+        delete names[1];
+        let x = names.toString();
+        document.write(x);
+        // document.write(y);
         
-        for (let i = 0; i < names.length; i++) {
-            document.write(names[i] + "<br>");
-        }
+
        
     </script>
 </head>
