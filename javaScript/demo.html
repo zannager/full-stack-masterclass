@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        //for loop
-        for(counter = 0; counter < 5; counter++){
-            document.write("Hello <br>");
+        //coding challenge 9
+        let counter = 0;
+        for(counter = 1; counter <= 100; counter++){
+            document.write("</br>" + counter);
         }
 
         //while loop
-        let i = 0;
-        while (i < 5) {
-            document.write("<br>Hi");
-            i++;
+        let i = 1;
+        let square = 0;
+        while (i <= 20) {
+            square = i * i;
+            i++
+            document.write("</br>" + square);
         }
     
     </script>
