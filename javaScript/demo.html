@@ -5,30 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        //switch case
-        let grade = "";
+        //regular expressions
+        /*
+        let pattern = /egg/i;
+        let x = "I ate an egg";
+        let n = x.search(pattern);
+        document.write(n);
+        */
 
-        switch (grade) {
-            case "A":
-                document.write("excellent");
-                break;
-                
-            case "B":
-                document.write("Good");
-                break;
-
-            case "C":
-                document.write("Needs improvement");
-                break;
-
-            case "D":
-                document.write("Poor performance");
-                break;
-
-            default:
-                document.write("Invalid Grade");
-                break;
-        }
+        let pattern = /egg/i;
+        let x = "I ate an egg";
+        let n = x.replace(pattern, "apple");
+        document.write(n);
     
     </script>
 </head>
