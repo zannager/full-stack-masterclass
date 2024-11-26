@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        //coding challenge 8
+        //coding challenge 9
 
-        let name = "ABC keyboard";
-        let price = 10;
-        let category = "non electronics";
+        let person =  {
+            name: "sam",
+            age: 29,
+            gender: "male"
+        };
 
-        if(price >= 100 || category == "electronics"){
-            document.write("you have a 10% discount")
-        }
-        else{
-            document.write("Sorry, you have no discount")
+        if (person.gender == "male"  && person.age >=18) {
+            document.write("The person is adult male");
+        } else {
+            document.write("Other");
         }
     
     </script>
