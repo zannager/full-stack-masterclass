@@ -5,19 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        //coding challenge 9
-        let counter = 0;
-        for(counter = 1; counter <= 100; counter++){
-            document.write("</br>" + counter);
-        }
+        //coding challenge 10
+        let rating = 5;
+        switch (rating) {
+            case 1: 
+            document.write("very poor");    
+                break;
 
-        //while loop
-        let i = 1;
-        let square = 0;
-        while (i <= 20) {
-            square = i * i;
-            i++
-            document.write("</br>" + square);
+            case 2: 
+            document.write("poor");    
+                break;
+
+            case 3: 
+            document.write("ok");    
+                break;
+
+            case 4: 
+            document.write("good");    
+                break;
+
+            case 5: 
+            document.write("excellent");    
+                break;
+        
+            default:
+                break;
         }
     
     </script>
