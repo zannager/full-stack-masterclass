@@ -5,13 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        //coding challenge 12
-        let message = "I like apple";
-        let pat = /apple/i;
-        let  newString = message.replace(pat, "mango");
+        //exception handling
+        let a = 200;
+        let b = 0;
 
-        document.write(message);
-        document.write("</br>" + newString);
+        try{
+            if(b == 0){
+                throw("Divide by zero error");
+            }
+            else{
+                let c = a / b;
+                document.write(c);
+            }
+        }catch(e){
+            alert("Error " + e)
+        }finally{
+            document.write("This will execute regardless");
+        }
+       
     
     </script>
 </head>
