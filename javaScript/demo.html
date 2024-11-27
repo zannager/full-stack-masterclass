@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        //regular expressions
-        /*
-        let pattern = /egg/i;
-        let x = "I ate an egg";
-        let n = x.search(pattern);
-        document.write(n);
-        */
-
-        let pattern = /egg/i;
-        let x = "I ate an egg";
-        let n = x.replace(pattern, "apple");
-        document.write(n);
+        //coding challenge 11
+        let number = "1234567890";
+        try {
+            if (number.length !== 10) {
+                throw new Error("Please enter a 10 digit number")
+            } else {
+                document.write("The number is valid: " + number);
+            }
+        } catch (e) {
+            alert("Error " + e.message);
+        } finally{
+            document.write("</br> This is always going to be executed");
+        }
     
     </script>
 </head>
