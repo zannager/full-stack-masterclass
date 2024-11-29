@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- root element -->
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type="text/javascript">
-        //HTML DOM (document object model)
-
-    
-    </script>
 </head>
 <body>
-    <a href="">my link"</a> <!-- attribute - href -->
-   <h1>my header</h1> <!-- element -->
+    <!-- DOM methods -->
+
+   <p id="pr">original paragraph</p>
+
+   <script type="text/javascript">
+    document.getElementById("pr").innerHTML = "This is a paragraph";
+
+</script>
+
 </body>
 </html>
