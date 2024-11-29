@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        //best practices
+        //coding challenge 13
         /*
-        avoid global variables
-        always declare local variables
-        initialize variable
-        beware of automatic type conversion
-        */
-       let counter = 0;
-       let name = "";
-       let a = "hello";
-       a = 10;
+        task 1:
+        write the following code according to best practices
+        var productprice = 100;
+            function displayprices(){
+            var discountedproductprice=prproductprice-50;
+            document.write(discountedproductprice);}
+            displayprices();
+            */
+
+        let productPrice = 100;
+        function displayPrices(){
+            var discountedProductPrice = productPrice - 50;
+            document.write(discountedProductPrice);
+        }
+        displayPrices();
     
     </script>
 </head>
