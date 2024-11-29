@@ -5,24 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript">
-        //exception handling
-        let a = 200;
-        let b = 0;
-
-        try{
-            if(b == 0){
-                throw("Divide by zero error");
-            }
-            else{
-                let c = a / b;
-                document.write(c);
-            }
-        }catch(e){
-            alert("Error " + e)
-        }finally{
-            document.write("This will execute regardless");
-        }
-       
+        //hoisting
+        x = 10;
+        document.write(x);
+        var x;
     
     </script>
 </head>
