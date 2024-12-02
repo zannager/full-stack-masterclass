@@ -6,11 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- DOM events-->
-    <h1 onclick="this.innerHTML =  'You clicked here'">Click here</h1>
+    <!-- DOM events listener-->
+    <button id="newButton">Click Here</button>
 
    <script type="text/javascript">
-    document.getElementById("p1").style.color = "blue";
+    document.getElementById("newButton").addEventListener("click", displayalert);
+
+    function displayalert(){
+        alert("Button clicked")
+    }
 
 </script>
 
