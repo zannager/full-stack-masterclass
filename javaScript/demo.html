@@ -3,18 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title id="Demo">Document</title>
 </head>
 <body>
-    <!-- DOM events listener-->
-    <button id="newButton">Click Here</button>
+    <!-- Intro to nodes-->
+    
 
    <script type="text/javascript">
-    document.getElementById("newButton").addEventListener("click", displayalert);
-
-    function displayalert(){
-        alert("Button clicked")
-    }
+    let myTitle = document.getElementById("Demo").firstChild.nodeValue;
+    document.write(myTitle);
 
 </script>
 
