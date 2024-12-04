@@ -6,26 +6,18 @@
     <title id="Demo">Document</title>
 </head>
 <body>
-    <!-- coding challenge 16
-    Create a text input a label with default text and a button, the label text should change to text specified in the textbox when user clicks the button.
+    <!-- 
+    deleting child
     -->
-    <label id="labelone" for="">this is a label</label>
-    <input type="text" id="inputone" placeholder="enter text here">
-    <button onclick="change()">click here</button>
-
+    <div id="divone">
+        <p id="para1">Hello this is a para 1</p>
+    </div>
 
    <script type="text/javascript">
-    function change(){
-        let txt = document.getElementById("inputone").value;
-        document.getElementById("labelone").innerHTML = txt;
-    }
+   let parent = document.getElementById("divone");
+   let child = document.getElementById("para1");
+   parent.removeChild(child);
 
-    // Add event listener for "Enter" key on the input field
-    document.getElementById("inputone").addEventListener("keydown", function(event) {
-        if (event.key === "Enter") {
-            change();
-        }
-    })
 
 </script>
 
