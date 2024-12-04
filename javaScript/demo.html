@@ -6,18 +6,21 @@
     <title id="Demo">Document</title>
 </head>
 <body>
-    <!-- coding challenge 15
-    Create a paragraph html element and change the element text on click of a button 
+    <!-- coding challenge 16
+    Create a text input a label with default text and a button, the label text should change to text specified in the textbox when user clicks the button.
     -->
-    
-    <p id="para">this is a paragraph</p>
-    <button onclick="change()" id="buttonone">Click Here</button>
-   
+    <label id="labelone" for="">this is a label</label>
+    <input type="text" id="inputone" placeholder="enter text here">
+    <button onclick="change()">click here</button>
+
 
    <script type="text/javascript">
     function change(){
-        document.getElementById("para").innerHTML = "this is the new text";
+        let txt = document.getElementById("inputone").value;
+        document.getElementById("labelone").innerHTML = txt;
     }
+
+    
 
 </script>
 
