@@ -6,12 +6,20 @@
     <title id="Demo">Document</title>
 </head>
 <body>
-    <!-- Intro to nodes-->
+    <!-- adding nodes-->
     
+    <div id="divone">
+        <p id="para1">hellow this is para 1</p>
+    </div>
 
    <script type="text/javascript">
-    let myTitle = document.getElementById("Demo").firstChild.nodeValue;
-    document.write(myTitle);
+    
+    let para = document.createElement("p");
+    let paratextnode = document.createTextNode("This is the text for new para");
+    para.appendChild(paratextnode);
+
+    let e = document.getElementById("divone");
+    e.appendChild(para);
 
 </script>
 
