@@ -6,20 +6,18 @@
     <title id="Demo">Document</title>
 </head>
 <body>
-    <!-- adding nodes-->
+    <!-- coding challenge 15
+    Create a paragraph html element and change the element text on click of a button 
+    -->
     
-    <div id="divone">
-        <p id="para1">hellow this is para 1</p>
-    </div>
+    <p id="para">this is a paragraph</p>
+    <button onclick="change()" id="buttonone">Click Here</button>
+   
 
    <script type="text/javascript">
-    
-    let para = document.createElement("p");
-    let paratextnode = document.createTextNode("This is the text for new para");
-    para.appendChild(paratextnode);
-
-    let e = document.getElementById("divone");
-    e.appendChild(para);
+    function change(){
+        document.getElementById("para").innerHTML = "this is the new text";
+    }
 
 </script>
 
